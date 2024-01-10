@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 export default function Jokes() {
   const [buttonState, setButtonState] = useState(true);
+  // const [joke, setJoke] = useState('');
 
   const handleClick = () => {
     setButtonState(!buttonState);
@@ -12,6 +13,7 @@ export default function Jokes() {
   return (
     <>
       <div id="jokeContainer">
+        <h2>test</h2>
         { buttonState ? (
           <button type="button" onClick={handleClick}>get a fire joke</button>
         ) : (
