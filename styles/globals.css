@@ -31,3 +31,7 @@ button {
   width: 40%;
   height: 2.5vh;
 }
+
+h2 {
+  display: flex;
+}
