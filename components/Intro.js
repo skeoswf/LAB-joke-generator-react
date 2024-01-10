@@ -11,7 +11,7 @@ export default function Intro() {
         margin: '0 auto',
       }}
     >
-      <h1>joke generator!! hehe ahahahaha AHAHAAA</h1>
+      <h1>really good jokes</h1>
 
     </div>
   );
