@@ -24,14 +24,22 @@ body {
 #jokeContainer {
   border: 10px solid white;
   display: flex;
+  flex-direction: column;
 }
 
 button {
   margin: 0 auto;
   width: 40%;
-  height: 2.5vh;
+  height: 35px;
 }
 
 h2 {
-  display: flex;
+  margin: auto auto 50px auto;
+  display: block;
+  border: 1px solid pink;
+}
+
+h1 {
+  font-size: 65px;
+  color: rgb(58, 164, 252);
 }
